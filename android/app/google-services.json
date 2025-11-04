@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "703592250162",
+    "project_id": "neuronote-app-c59e7",
+    "storage_bucket": "neuronote-app-c59e7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703592250162:android:8f488dd2dcfb049b9bb52b",
+        "android_client_info": {
+          "package_name": "com.example.neuronote_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgFtslbhq_7k1c0Tm6MiYGkuOY5UkI8VQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,34 @@
+name: neuronote_app
+description: Cerebro Silencioso - Neuronote
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.17.0
+  cloud_functions: ^4.7.0
+  flutter_local_notifications: ^16.3.0
+  speech_to_text: ^6.6.0
+  geolocator: ^10.1.0
+  background_fetch: ^1.2.0
+  device_calendar: ^4.3.0
+  wifi_info_flutter: ^2.0.2
+  purchases_flutter: ^6.9.0
+  google_generative_ai: ^0.4.0
+  http: ^1.2.0
+  timezone: ^0.9.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
