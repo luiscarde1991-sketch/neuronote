@@ -1,0 +1,10 @@
+{
+  "name": "neuronote",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "flutter build web --release"
+  },
+  "dependencies": {
+    "firebase-tools": "^13.0.0"
+  }
+}
