@@ -8,15 +8,24 @@ void main() async {
 
   // CONFIGURACIÓN PARA WEB (usa firebase.json automáticamente)
   await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+    options: const FirebaseOptions(
+      apiKey: "AIzaSyB1X-kaT4TSLp6EJmhC2qZ7W8KLdl6jEXs",
+      authDomain: "neuronote-app-c59e7.firebaseapp.com",
+      projectId: "neuronote-app-c59e7",
+      storageBucket: "neuronote-app-c59e7.firebasestorage.app",
+      messagingSenderId: "703592250162",
+      appId: "1:703592250162:web:23f1aaea77fb437f9bb52b",
+    ),
+  ); // ← CIERRE CORRECTO
 
-  await NotificationService.initialize();
+  await NotificationService.initialize(); // ← AHORA SÍ
+
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

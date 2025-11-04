@@ -6,7 +6,6 @@
 .pub/
 build/
 coverage/
-lib/generated_plugin_registrant.dart
 ios/.generated/
 ios/Flutter/.generated/
 ios/Flutter/Generated.xcconfig
